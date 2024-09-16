@@ -1,0 +1,112 @@
+/* styles.css */
+
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Header Styles */
+header {
+    background-color: #000;
+    color: #fff;
+    padding: 20px 0;
+}
+
+.logo h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+.navbar ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+}
+
+.navbar ul li {
+    display: inline;
+}
+
+.navbar ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Main Content Styles */
+main {
+    padding: 40px 0;
+}
+
+.featured-article {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.featured-article img {
+    width: 100%;
+    max-width: 800px;
+    height: auto;
+}
+
+.featured-article h2 {
+    margin-top: 20px;
+}
+
+.featured-article p {
+    font-size: 16px;
+    color: #555;
+    margin-top: 10px;
+}
+
+.read-more {
+    color: #0073e6;
+    text-decoration: none;
+    margin-top: 10px;
+}
+
+.articles {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+article {
+    width: 100%;
+    max-width: 300px;
+    margin-bottom: 20px;
+}
+
+article img {
+    width: 100%;
+    height: auto;
+}
+
+article h3 {
+    margin-top: 10px;
+}
+
+article p {
+    font-size: 14px;
+    color: #555;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
